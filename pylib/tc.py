@@ -13,7 +13,7 @@ class WebOpAdmin:
 
     def setupWebTest(self):
         self.driver = webdriver.Chrome()
-        self.driver.get('http://localhost:9999/mgr/login/login.html')
+        self.driver.get('http://172.20.10.4:9999/mgr/login/login.html')
 
     def tearDownWebTest(self):
         self.driver.quit()
